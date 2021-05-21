@@ -21,7 +21,7 @@
 		<spring.version>5.1.2.RELEASE</spring.version>
 		<junit.version>4.11</junit.version>
 		<log4j.version>1.2.17</log4j.version>
-		<sonar.host.url>http://18.217.6.115:9959/</sonar.host.url>
+		<sonar.host.url>http://18.188.175.178:9959/</sonar.host.url>
                 <sonar.login>admin</sonar.login>
 		<sonar.password>admin</sonar.password>  
               
@@ -99,13 +99,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Harichandana  Releases Nexus Repository</name>
-	      <url>http://18.188.129.27:9959/harichandana/repository/mynthra-realase/</url>
+	      <url>http://3.128.198.48:9959/harichandana/repository/mynthra-realase/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>harichandana Snapshot Nexus Repository </name>
-	      <url>http://18.188.129.27:9959/harichandana/repository/mynthra-snapshot/</url>
+	      <url>http://3.128.198.48:9959/harichandana/repository/mynthra-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
