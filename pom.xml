@@ -105,7 +105,7 @@
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>harichandana Snapshot Nexus Repository </name>
-	      <url>http://3.128.198.48:9959/harichandana/repository/mynthra-snapshot/</url>
+	      <url>http://18.221.181.129:9959/harichandana/repository/mynthra-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
