@@ -10,7 +10,7 @@ node{
        
      sh "${mavenhome}/bin/mvn clean package"
    } 
-stage('excute sonar qube'){
+    stage('excute sonar qube'){
     sh "${mavenhome}/bin/mvn sonar:sonar"
 }
 stage('upload artifacts to nexcus'){
