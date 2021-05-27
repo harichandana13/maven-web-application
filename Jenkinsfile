@@ -21,7 +21,7 @@ stage('upload artifacts to nexcus'){
 stage('deploy the application into tomacte server'){
     
     sshagent(['6b4f81f3-302f-4691-9361-8c0b42a1c010']) {
-    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@13.59.55.174:/opt/apache-tomcat-9.0.45/webapps"
+    sh "scp -o StrictHostKeyChecking=no target/maven-web-application.war ec2-user@18.222.231.244/:/opt/apache-tomcat-9.0.45/webapps"
 }
 }
 stage('send notification'){
